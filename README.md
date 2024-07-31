@@ -107,7 +107,6 @@ $conn->close();
 The project uses a MySQL database with the following table structure:
 
 ```bash
-نسخ الكود
 CREATE TABLE `directions` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `directions` varchar(255) NOT NULL,
@@ -116,7 +115,6 @@ CREATE TABLE `directions` (
 Sample data:
 ```
 ```bash
-نسخ الكود
 INSERT INTO `directions` (`directions`) VALUES
 ('forward'),
 ('right'),
